@@ -19,7 +19,7 @@ body {
   font-size: $text-size;
   line-height: 1.3;
   padding: 0 1.8rem;
-  margin-top: 7rem;
+  margin-top: 4.5rem;
 }
 
 h1,
@@ -35,7 +35,7 @@ p {
   overflow: hidden;
 }
 .wrapper > * {
-  padding: 0 2rem;
+  padding: 1.8rem 1.5rem;
 }
 
 .community {
@@ -44,7 +44,6 @@ p {
   h2 {
     color: $cyan;
     font-size: 1.25rem;
-    padding-top: 1.875rem;
   }
   h3 {
     color: $bright-yellow;
@@ -56,26 +55,73 @@ p {
     font-size: 0.8rem;
     line-height: 2;
     padding-top: 1.5rem;
-    padding-bottom: 2.2rem;
   }
 }
 
 .subscription {
   background-color: $cyan;
   color: $white;
+  padding-bottom: 1.25rem;
+
+  h2 {
+    font-size: 1rem;
+  }
+  strong {
+    font-size: 2rem;
+    padding-right: 5px;
+  }
+  p {
+    padding-top: 1.25rem;
+    opacity: 0.8;
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    padding-top: 1.875rem;
+  }
+  a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: $bright-yellow;
+    color: $white;
+    padding: 0.9675rem 5.6rem;
+    border-radius: 5px;
+    margin-top: 1.875rem;
+  }
+  a:hover {
+    background-color: $dark-yellow;
+  }
 }
 
 .why {
   background-color: $light-cyan;
   color: $white;
+
+  ul {
+    margin-top: 1.5rem;
+    padding: 0;
+  }
+
+  ul li {
+    list-style-type: none;
+    font-size: 0.85rem;
+    margin-bottom: 0.2rem;
+    opacity: 0.8;
+  }
 }
 
 .attribution {
+  margin-top: 1rem;
   font-size: 1rem;
+  text-align: center;
   color: $grayish-blue;
 
   a {
     text-decoration: none;
     color: #000;
+  }
+  a:hover {
+    color: $bright-yellow;
   }
 }
