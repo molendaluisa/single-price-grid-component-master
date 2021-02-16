@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 
 //colors
 $cyan: hsl(179, 62%, 43%);
+$light-cyan: hsl(179, 62%, 55%);
 $bright-yellow: hsl(71, 73%, 54%);
 $light-gray: hsl(204, 43%, 93%);
 $grayish-blue: hsl(218, 22%, 67%);
+$white: #fff;
 
 //text
-$karla: 'Karla', sans-serif;
+$karla: "Karla", sans-serif;
 $text-size: 1em;
 $light-weight: 400;
 $heavy-weight: 700;
