@@ -2,14 +2,14 @@
 html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
@@ -34,18 +34,16 @@ p {
 .wrapper {
   border-radius: 0.5rem;
   overflow: hidden;
-  max-width: 50rem;
+  max-width: 40rem;
   margin: auto;
 }
 
 @media only screen and (min-width: 62.5em) {
   .wrapper {
-    display: -ms-grid;
+    margin-top: 10rem;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    -ms-grid-rows: (auto)[2];
-        grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
   }
 }
 
@@ -108,8 +106,8 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-top: 1.875rem;
 }
 
